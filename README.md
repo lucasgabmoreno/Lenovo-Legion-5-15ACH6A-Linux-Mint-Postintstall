@@ -42,5 +42,14 @@ Stay on kernel stock, default AMD drivers and Discrete Graphic on BIOS.<br>
 Login Windows > Users > Delay before connections (in seconds) > `0`<br>
 Users and Groups > Groups > Add `nopasswdlogin`
 
+## Fix resolution
+1. Open Display
+2. Go to Settings > Enable fraction scaling control > `Enable`
+3. Go to Layout and change Monitor scale<br>
+125% ≈ 1920x1080 FHD<br>
+150% ≈ 1600x900 HD+<br>
+175% ≈ 1366x768 HD<br>
+   
+
 
 
