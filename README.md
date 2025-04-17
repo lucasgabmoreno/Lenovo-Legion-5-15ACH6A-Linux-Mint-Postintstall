@@ -1,5 +1,27 @@
 # Lenovo Legion 5 15ACH6A Linux Mint Postinstall
 
+```
+             ...-:::::-...                  
+          .-MMMMMMMMMMMMMMM-.               
+      .-MMMM`..-:::::::-..`MMMM-.          OS: Linux Mint 22.1 x86_64 
+    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.        Host: 82NW Legion 5 15ACH6A 
+   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-       Kernel: 6.8.0-58-generic 
+ `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`    Shell: bash 5.2.21
+ :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:    Resolution: 2912x1638
+.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.   DE: Cinnamon 6.4.8 
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   WM: Mutter (Muffin) 
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:   Terminal: gnome-terminal
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   CPU: AMD Ryzen 5 5600H with Radeon Graphics (12) @ 4.280GHz
+.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.   GPU: AMD ATI Radeon RX 6600/6600 XT/6600M
+ :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:    Memory: 4673MiB / 15841MiB
+  :MMM:MMM:`                `:MMM:MMM:     
+   .MMM.MMMM:--------------:MMMM.MMM.       
+     '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-'        
+       '.-MMMM``--:::::--``MMMM-.'          
+            '-MMMMMMMMMMMMM-'               
+               ``-:::::-``
+```                                                  
+
 ## BIOS
 Disable Secure Boot<br>
 Use Discrete Graphics mode (don't worry, derivatives of Windows, Linux, MacOS, ChromiumOS and Androidx84 will work)
@@ -37,7 +59,7 @@ Stay on stock kernel, don't change.
 ## AMD drivers
 Stay on default AMD drivers, [AMD web graphics drivers](https://www.amd.com/en/support/download/linux-drivers.html) will work worst.
 
-## Fix auto login
+## Fix autologin
 Stay on kernel stock, default AMD drivers and Discrete Graphic on BIOS.<br>
 Login Windows > Users > Delay before connections (in seconds) > `0`<br>
 Users and Groups > Groups > Add `nopasswdlogin`
